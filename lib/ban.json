@@ -1,1 +1,26 @@
-[]
+{
+  "name": "chatuwa-x-md",
+  "version": "1.0.0",
+  "description": "Chatuwa X MD - AI Powered WhatsApp Bot with Gemini (Sinhala + English)",
+  "main": "bot.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "node bot.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "whatsapp-bot",
+    "gemini-ai",
+    "chatuwa",
+    "multi-device",
+    "sinhala-bot"
+  ],
+  "author": "DINETH",
+  "license": "ISC",
+  "dependencies": {
+    "whatsapp-web.js": "^1.25.0",
+    "qrcode-terminal": "^0.12.0",
+    "@google/generative-ai": "^0.21.0"
+  }
+}
