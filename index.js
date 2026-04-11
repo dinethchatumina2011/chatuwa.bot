@@ -19,7 +19,7 @@ const axios = require('axios')
 const { File } = require('megajs')
 const prefix = '.'
 
-const ownerNumber = ['94764442212']
+const ownerNumber = ['94741336839']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -69,7 +69,7 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('HASHAN Bot Connected Successful ✅')
 
-let up = `HASHAN MD Connected Successful ✅\n\nPREFIX: ${prefix}`;
+let up = `gpt Connected Successful ✅\n\nPREFIX: ${prefix}`;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://files.catbox.moe/sn20tl.jpg` }, caption: up })
 
